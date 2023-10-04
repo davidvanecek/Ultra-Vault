@@ -16,7 +16,7 @@ namespace UltraVault
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new UltraVault());
+            Application.Run(new Loader());
         }
     }
 }

@@ -15,22 +15,11 @@ namespace UltraVault
     {
         public UltraVault()
         {
-            Loader loadForm = new Loader();
-            loadForm.Show();
-            Task.Delay(3000).ContinueWith(_ =>
-            {
-                // Počkej 3 sekundy a poté zavři načítací okno
-                loadForm.Close();
-
-                // Po zavření načítacího okna zobraz hlavní formulář
-              
-            });
             InitializeComponent();
-
         }
 
 
-            private void UltraVault_Load(object sender, EventArgs e)
+        private void UltraVault_Load(object sender, EventArgs e)
         {
 
         }

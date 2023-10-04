@@ -23,9 +23,12 @@ namespace UltraVault
             // Čekání na 3 sekundy
             await Task.Delay(3000);
 
-            // Zavření okna
-            this.Close();
+            // Otevření Form1
+            UltraVault mainForm = new UltraVault();
+            mainForm.Show();
 
+            // Zavření okna
+            this.Hide();
         }
     }
 }
