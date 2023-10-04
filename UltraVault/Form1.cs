@@ -37,8 +37,20 @@ namespace UltraVault
 
         private void metroSetButton1_Click(object sender, EventArgs e)
         {
-            int passwordLenght = int.Parse( metroSetTextBox1.Text);
+            int passwordLenght = int.Parse(metroSetTextBox1.Text);
             string passwordGenerated = PasswordGenerator.GeneratePassword(passwordLenght, metroSetComboBox1.SelectedIndex);
+            string encryptedPass = Encryption.EncryptString(passwordGenerated);
+            metroSetTextBox2.Text = passwordGenerated;
+            metroSetTextBox3.Text = encryptedPass;
+        }
+
+        private void metroSetLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroSetTextBox2_Click(object sender, EventArgs e)
+        {
 
         }
     }

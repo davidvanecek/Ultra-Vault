@@ -25,3 +25,4 @@ D:\Ultra-Vault\UltraVault\obj\Debug\UltraVault.csproj.CoreCompileInputs.cache
 D:\Ultra-Vault\UltraVault\obj\Debug\UltraVault.csproj.CopyComplete
 D:\Ultra-Vault\UltraVault\obj\Debug\UltraVault.exe
 D:\Ultra-Vault\UltraVault\obj\Debug\UltraVault.pdb
+D:\Ultra-Vault\UltraVault\bin\Debug\Crypto.AES.dll
