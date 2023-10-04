@@ -137,7 +137,7 @@
             this.metroSetTextBox2.Multiline = false;
             this.metroSetTextBox2.Name = "metroSetTextBox2";
             this.metroSetTextBox2.ReadOnly = false;
-            this.metroSetTextBox2.Size = new System.Drawing.Size(240, 23);
+            this.metroSetTextBox2.Size = new System.Drawing.Size(240, 32);
             this.metroSetTextBox2.Style = MetroSet_UI.Enums.Style.Light;
             this.metroSetTextBox2.StyleManager = null;
             this.metroSetTextBox2.TabIndex = 5;
@@ -166,7 +166,7 @@
             this.metroSetTextBox3.Multiline = false;
             this.metroSetTextBox3.Name = "metroSetTextBox3";
             this.metroSetTextBox3.ReadOnly = false;
-            this.metroSetTextBox3.Size = new System.Drawing.Size(240, 23);
+            this.metroSetTextBox3.Size = new System.Drawing.Size(240, 32);
             this.metroSetTextBox3.Style = MetroSet_UI.Enums.Style.Light;
             this.metroSetTextBox3.StyleManager = null;
             this.metroSetTextBox3.TabIndex = 6;
@@ -230,7 +230,7 @@
             this.metroSetButton2.PressBorderColor = System.Drawing.Color.Black;
             this.metroSetButton2.PressColor = System.Drawing.Color.DarkRed;
             this.metroSetButton2.PressTextColor = System.Drawing.Color.White;
-            this.metroSetButton2.Size = new System.Drawing.Size(65, 23);
+            this.metroSetButton2.Size = new System.Drawing.Size(65, 32);
             this.metroSetButton2.Style = MetroSet_UI.Enums.Style.Custom;
             this.metroSetButton2.StyleManager = null;
             this.metroSetButton2.TabIndex = 11;
@@ -257,7 +257,7 @@
             this.metroSetButton3.PressBorderColor = System.Drawing.Color.Black;
             this.metroSetButton3.PressColor = System.Drawing.Color.DarkRed;
             this.metroSetButton3.PressTextColor = System.Drawing.Color.White;
-            this.metroSetButton3.Size = new System.Drawing.Size(65, 23);
+            this.metroSetButton3.Size = new System.Drawing.Size(65, 32);
             this.metroSetButton3.Style = MetroSet_UI.Enums.Style.Custom;
             this.metroSetButton3.StyleManager = null;
             this.metroSetButton3.TabIndex = 12;

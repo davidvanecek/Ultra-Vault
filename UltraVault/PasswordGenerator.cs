@@ -1,8 +1,10 @@
-﻿using System;
+﻿using MetroSet_UI.Forms;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace UltraVault
 {
@@ -18,8 +20,14 @@ namespace UltraVault
             if (preference==2)
                 characters += "!@#$%^&*()-_+=<>?";
 
+           
             if (string.IsNullOrEmpty(characters))
-                return "Please select at least one character type for the password.";
+            {
+                MessageBox.Show("Prosím vyberte alespoň jeden typ hesla");
+               
+            }
+            return "Chyba";
+               
 
             Random random = new Random();
             char[] password = new char[length];

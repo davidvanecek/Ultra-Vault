@@ -72,6 +72,7 @@ namespace UltraVault
 
         private void metroSetTrackBar1_Scroll(object sender)
         {
+            labelValue.ForeColor= Color.White;
             labelValue.Text = metroSetTrackBar1.Value.ToString();
         }
 
