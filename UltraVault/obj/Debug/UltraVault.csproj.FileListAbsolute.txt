@@ -13,3 +13,17 @@ C:\Users\adamd\OneDrive\Plocha\C# PROJECTS\UltraVault\UltraVault\obj\Debug\Ultra
 C:\Users\adamd\OneDrive\Plocha\C# PROJECTS\UltraVault\UltraVault\obj\Debug\UltraVault.csproj.CopyComplete
 C:\Users\adamd\OneDrive\Plocha\C# PROJECTS\UltraVault\UltraVault\obj\Debug\UltraVault.exe
 C:\Users\adamd\OneDrive\Plocha\C# PROJECTS\UltraVault\UltraVault\obj\Debug\UltraVault.pdb
+D:\Ultra-Vault\UltraVault\bin\Debug\UltraVault.exe.config
+D:\Ultra-Vault\UltraVault\bin\Debug\UltraVault.exe
+D:\Ultra-Vault\UltraVault\bin\Debug\UltraVault.pdb
+D:\Ultra-Vault\UltraVault\bin\Debug\Crypto.AES.dll
+D:\Ultra-Vault\UltraVault\bin\Debug\MetroSet UI.dll
+D:\Ultra-Vault\UltraVault\obj\Debug\UltraVault.csproj.AssemblyReference.cache
+D:\Ultra-Vault\UltraVault\obj\Debug\UltraVault.Loader.resources
+D:\Ultra-Vault\UltraVault\obj\Debug\UltraVault.UltraVault.resources
+D:\Ultra-Vault\UltraVault\obj\Debug\UltraVault.Properties.Resources.resources
+D:\Ultra-Vault\UltraVault\obj\Debug\UltraVault.csproj.GenerateResource.cache
+D:\Ultra-Vault\UltraVault\obj\Debug\UltraVault.csproj.CoreCompileInputs.cache
+D:\Ultra-Vault\UltraVault\obj\Debug\UltraVault.csproj.CopyComplete
+D:\Ultra-Vault\UltraVault\obj\Debug\UltraVault.exe
+D:\Ultra-Vault\UltraVault\obj\Debug\UltraVault.pdb
