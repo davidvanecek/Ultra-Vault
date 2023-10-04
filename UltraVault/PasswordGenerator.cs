@@ -12,9 +12,9 @@ namespace UltraVault
         {
             string characters = "";
             if (preference==0)
-                characters += "0123456789";
-            if (preference==1)
                 characters += "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            if (preference==1)
+               characters += "0123456789";
             if (preference==2)
                 characters += "!@#$%^&*()-_+=<>?";
 

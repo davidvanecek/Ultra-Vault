@@ -8,14 +8,14 @@ namespace UltraVault
 {
     class Encryption
     {
-        static string EncryptString(string password)
+        public static string EncryptString(string password)
         {
             using (AES aes = new AES("SHortKEy"))
             {
                 return aes.Encrypt(password);
             }
         }
-        static string DecryptString(string password)
+        public static string DecryptString(string password)
         {
             using (AES aes = new AES("SHortKEy"))
             {
