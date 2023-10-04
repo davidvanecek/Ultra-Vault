@@ -1,0 +1,14 @@
+C:\Users\adamd\OneDrive\Plocha\C# PROJECTS\UltraVault\UltraVault\bin\Debug\UltraVault.exe.config
+C:\Users\adamd\OneDrive\Plocha\C# PROJECTS\UltraVault\UltraVault\bin\Debug\UltraVault.exe
+C:\Users\adamd\OneDrive\Plocha\C# PROJECTS\UltraVault\UltraVault\bin\Debug\UltraVault.pdb
+C:\Users\adamd\OneDrive\Plocha\C# PROJECTS\UltraVault\UltraVault\bin\Debug\MetroSet UI.dll
+C:\Users\adamd\OneDrive\Plocha\C# PROJECTS\UltraVault\UltraVault\obj\Debug\UltraVault.csproj.AssemblyReference.cache
+C:\Users\adamd\OneDrive\Plocha\C# PROJECTS\UltraVault\UltraVault\obj\Debug\UltraVault.csproj.SuggestedBindingRedirects.cache
+C:\Users\adamd\OneDrive\Plocha\C# PROJECTS\UltraVault\UltraVault\obj\Debug\UltraVault.UltraVault.resources
+C:\Users\adamd\OneDrive\Plocha\C# PROJECTS\UltraVault\UltraVault\obj\Debug\UltraVault.Properties.Resources.resources
+C:\Users\adamd\OneDrive\Plocha\C# PROJECTS\UltraVault\UltraVault\obj\Debug\UltraVault.csproj.GenerateResource.cache
+C:\Users\adamd\OneDrive\Plocha\C# PROJECTS\UltraVault\UltraVault\obj\Debug\UltraVault.csproj.CoreCompileInputs.cache
+C:\Users\adamd\OneDrive\Plocha\C# PROJECTS\UltraVault\UltraVault\obj\Debug\UltraVault.csproj.CopyComplete
+C:\Users\adamd\OneDrive\Plocha\C# PROJECTS\UltraVault\UltraVault\obj\Debug\UltraVault.exe
+C:\Users\adamd\OneDrive\Plocha\C# PROJECTS\UltraVault\UltraVault\obj\Debug\UltraVault.pdb
+C:\Users\adamd\OneDrive\Plocha\C# PROJECTS\UltraVault\UltraVault\obj\Debug\UltraVault.Loader.resources
