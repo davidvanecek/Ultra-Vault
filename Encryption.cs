@@ -8,14 +8,14 @@ namespace Hesla
 {
     class Encryption
     {
-        public string EncryptString(string password)
+        static string EncryptString(string password)
         {
             using (AES aes = new AES("SHortKEy"))
             {
                 return aes.Encrypt(password);
             }
         }
-        public string DecryptString(string password)
+        static string DecryptString(string password)
         {
             using (AES aes = new AES("SHortKEy"))
             {
