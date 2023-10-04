@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroSet_UI.Forms;
 using System.IO;
+using MetroSet_UI.Controls;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+
 namespace UltraVault
 {
     public partial class UltraVault : MetroSetForm
@@ -21,13 +24,15 @@ namespace UltraVault
 
         private void UltraVault_Load(object sender, EventArgs e)
         {
-
+            metroSetDivider1.ForeColor = Color.Red;
+            metroSetDivider2.ForeColor = Color.Red;
         }
         string passwordGenerated;
         string encryptedPass;
         private void metroSetButton1_Click(object sender, EventArgs e)
         {
-            int passwordLenght = int.Parse(metroSetTextBox1.Text);
+            int passwordLenght = metroSetTrackBar1.Value;
+            
             passwordGenerated = PasswordGenerator.GeneratePassword(passwordLenght, metroSetComboBox1.SelectedIndex);
            encryptedPass = Encryption.EncryptString(passwordGenerated);
             metroSetTextBox2.Text = passwordGenerated;
@@ -57,6 +62,22 @@ namespace UltraVault
             {
                 File.WriteAllText(saveFileDialog1.FileName, encryptedPass);
             }
+        }
+
+        private void metroSetButton4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
+
+        private void metroSetTrackBar1_Scroll(object sender)
+        {
+            labelValue.Text = metroSetTrackBar1.Value.ToString();
+        }
+
+        private void metroSetTrackBar1_Scroll(object sender, EventArgs e)
+        {
+
         }
     }
 }

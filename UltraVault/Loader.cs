@@ -22,7 +22,7 @@ namespace UltraVault
 
             // Inicializace Timeru
             progressBarTimer = new Timer();
-            progressBarTimer.Interval = 30; // Interval v milisekundách
+            progressBarTimer.Interval = 15; // Interval v milisekundách
             progressBarTimer.Tick += new EventHandler(ProgressBarTimer_Tick);
             
 
@@ -53,7 +53,7 @@ namespace UltraVault
         private async void Loader_Load(object sender, EventArgs e)
         {
             // Čekání na 3 sekundy
-            await Task.Delay(3000);
+            await Task.Delay(1500);
 
             // Spustíme Timer
             progressBarTimer.Start();

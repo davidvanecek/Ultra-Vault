@@ -47,11 +47,11 @@
             // 
             // metroSetProgressBar1
             // 
-            this.metroSetProgressBar1.BackgroundColor = System.Drawing.Color.White;
-            this.metroSetProgressBar1.BorderColor = System.Drawing.Color.Red;
-            this.metroSetProgressBar1.DisabledBackColor = System.Drawing.Color.Red;
-            this.metroSetProgressBar1.DisabledBorderColor = System.Drawing.Color.Red;
-            this.metroSetProgressBar1.DisabledProgressColor = System.Drawing.Color.Red;
+            this.metroSetProgressBar1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.metroSetProgressBar1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.metroSetProgressBar1.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.metroSetProgressBar1.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.metroSetProgressBar1.DisabledProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
             this.metroSetProgressBar1.ForeColor = System.Drawing.Color.Red;
             this.metroSetProgressBar1.IsDerivedStyle = true;
             this.metroSetProgressBar1.Location = new System.Drawing.Point(197, 398);
@@ -59,7 +59,7 @@
             this.metroSetProgressBar1.Minimum = 0;
             this.metroSetProgressBar1.Name = "metroSetProgressBar1";
             this.metroSetProgressBar1.Orientation = MetroSet_UI.Enums.ProgressOrientation.Horizontal;
-            this.metroSetProgressBar1.ProgressColor = System.Drawing.Color.Red;
+            this.metroSetProgressBar1.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
             this.metroSetProgressBar1.Size = new System.Drawing.Size(404, 23);
             this.metroSetProgressBar1.Style = MetroSet_UI.Enums.Style.Light;
             this.metroSetProgressBar1.StyleManager = null;
@@ -79,9 +79,12 @@
             this.Controls.Add(this.metroSetProgressBar1);
             this.Controls.Add(this.pictureBox1);
             this.HeaderColor = System.Drawing.Color.Red;
+            this.Moveable = false;
             this.Name = "Loader";
+            this.ShowIcon = false;
             this.SmallLineColor1 = System.Drawing.Color.Red;
             this.SmallLineColor2 = System.Drawing.Color.Red;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Loader";
             this.TextColor = System.Drawing.Color.WhiteSmoke;
             this.Load += new System.EventHandler(this.Loader_Load);
